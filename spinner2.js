@@ -26,3 +26,7 @@ while (i <= 1) {
 setTimeout(() => {
   process.stdout.write('\r|   ');
 }, t);
+
+setTimeout(() => {
+  process.stdout.write('\n');
+}, 1710);
